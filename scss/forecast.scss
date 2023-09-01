@@ -1,6 +1,5 @@
 .forecastSection{
     min-height: 40vh;
-    background-color: white;
     padding-top: 50px;
     padding-bottom: 35px;
     margin-top: -5px;
@@ -54,8 +53,7 @@
 
 @media (max-width: 600px) {
     .forecastSection{  
-        height: 200px;
-        // background-color: red;
+        min-height: 200px;
         padding-top: 50px;  
         margin-bottom: 50px;
     padding-bottom: 50px;

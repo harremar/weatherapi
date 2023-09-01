@@ -122,6 +122,7 @@ function getLocationWeather(len) {
           <img class="weatherIcon" src="https:${fday.day.condition.icon}" alt="weatherIcon">
           <div class="daylow">Low:  ${fday.day.mintemp_f}&deg;</div>
           <div class="dayhigh">High:  ${fday.day.maxtemp_f}&deg;</div>
+          
         </div>
             `);
         });
